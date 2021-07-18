@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodDesign - We make your business look good.</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <!-- estimation overlay -->
+    <div id="grey-overlay" class="grey-overlay"></div>
+    <div id="estimate-window" class="estimate-window">
+        <div class="container">
+            <div class="title">
+                Find out estimated price for your website.
+            </div>
+
+            <div class="input-area">
+                Type of website:
+                <div class="button-container">
+                    <div data-cost="150" id="t-personal" class="button type-button selected">Personal</div>
+                    <div data-cost="200" id="t-business" class="button type-button">Business</div>
+                    <div data-cost="180" id="t-blog" class="button type-button">Blog</div>
+                    <div data-cost="210" id="t-shop" class="button type-button">Online Shop</div>
+                </div>
+                Level of complexity:
+                <div class="button-container">
+                    <div data-cost="50" id="l-simple" class="button level-button selected">Simple</div>
+                    <div data-cost="200" id="l-medium" class="button level-button">Medium</div>
+                    <div data-cost="400" id="l-difficult" class="button level-button">Difficult</div>
+                </div>
+            </div>
+    
+            <div class="estimated-text-container">
+                <h1>
+                    Estimated price:
+                    <div id="estimation-value">$250</div>
+                </h1>
+                <p>
+                    Keep in mind this is only estimation, the price depends on other factors like required assets and used technology.
+                </p>
+            </div>
+    
+            <a id="contact-us" href="#contact" class="cta">Contact us!</a>
+        </div>
+        
+
+    </div>
+    <!-- mobile navigation menu -->
+    <div id="mobile-menu" class="mobile-menu-overlay">
+        <div class="mobile-nav-exit">
+            <img  id="mobile-exit" src="images/mobile-exit.svg" alt="close navigation">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#work">Showcase</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a class="cta get-quote-cta" href="#">Get a quote</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- desktop navigation menu -->
+    <div class="desktop-navbar">
+        <div class="logo">
+            Good<span>Design</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#work">Showcase</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a class="cta get-quote-cta" href="#">Get a quote</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- mobile navigation bar -->
+    <div class="navbar-mobile">
+        <div class="logo">
+            Good<span>Design</span>
+        </div>
+        <div id="hamburger" class="hamburger">
+            <img src="images/hamburger.svg" alt="open navigation">
+        </div>
+    </div>
+    
+
+    <section class="hero">
+        <div class="col-left">
+            <p>Designs people <span>love</span></p>
+            <h1>We make your business look <span>good</span>.</h1>
+            <a id="cta1" href="#" class="cta get-quote-cta">Get a quote</a>
+        </div>
+        <div class="col-right">
+            <div class="hero-circle"></div>
+            <div class="hero-pencil"></div>
+            
+        </div>
+        <div class="scroll-down">
+            <a href="#work"><div class="scroll-down-button"></div></a>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h1>
+                See our <span>work</span>
+            </h1>
+        </div>
+    
+        <!-- <div class="slider-container"> -->
+    
+            <div id="card-slider" class="splide">
+    
+                <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev">
+                    </button>
+                    <button class="splide__arrow splide__arrow--next">
+                    </button>
+                </div>
+    
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="work-card">
+                                <div class="image-container">
+                                    <img src="images/windows-special.jpg" alt="special wallpaper">
+                                </div>
+                                <div class="card-container">
+                                    <div class="title">
+                                        windows special wallpaper
+                                    </div>
+                                    <div class="subtitle">
+                                        2021.05.30
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="work-card">
+                                <div class="image-container">
+                                    <img src="images/windows-special.jpg" alt="special wallpaper">
+                                </div>
+                                <div class="card-container">
+                                    <div class="title">
+                                        windows special wallpaper
+                                    </div>
+                                    <div class="subtitle">
+                                        2021.05.30
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- <div class="work-card">
+                <div class="image-container">
+                    <img src="images/windows-special.jpg" alt="special wallpaper">
+                </div>
+                <div class="card-container">
+                    <div class="title">
+                        windows special wallpaper
+                    </div>
+                    <div class="subtitle">
+                        2021.05.30
+                    </div>
+                </div>
+            </div> -->
+    
+    
+        <!-- </div> -->
+    
+        <a href="#" class="cta">View full showcase</a>
+    
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-title">
+            <div class="filler"></div>
+            <div class="about-title-content">
+                <h1>
+                    About <span>us</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="timeline-container">
+            <div class="vertical-line"></div>
+            <div class="timeline-items">
+
+                <div class="item right">
+                    <div class="title">
+                        Good<span>Design</span> is funded.
+                    </div>
+                    <div class="subtitle">
+                        2025.05.30
+                    </div>
+                </div>
+
+                <div class="item right">
+                    <div class="title">
+                        Public website launch.
+                    </div>
+                    <div class="subtitle">
+                        2026.05.30
+                    </div>
+                </div>
+
+                <div class="item right">
+                    <div class="title">
+                        We are bored.
+                    </div>
+                    <div class="subtitle">
+                        YESTERDAY
+                    </div>
+                </div>
+
+                <div class="item right">
+                    <div class="title">
+                        You use our product.
+                    </div>
+                    <div class="subtitle">
+                        TODAY
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="more" id="more">
+        <div class="title-container">
+            <h1>
+                <span>More</span> about us.
+            </h1>
+            <div class="filler"></div>
+        </div>
+
+        <div class="section-content">
+            <div class="left-col">
+            
+                <img src="images/teamwork.jpeg" alt="working together">
+            </div>
+            <div class="right-col">
+                <div class="text-element">
+                    <p>
+                        We are a team of experienced professionals who come from different places and share different experiences but we have always one goal in mind - <span>customer satisfaction</span>.
+                    </p>
+                    <p>
+                        Our team worked on many difficult projects and is eager to accept the next challenge.
+                    </p>
+                </div>
+                <div class="cta-container">
+                    <a href="#" class="cta get-quote-cta">Get a quote</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>
+            Get in <span>touch</span>
+        </h1>
+        <div class="divider"></div>
+        <div class="message-container">
+            <form action="">
+                <div class="send-us-a-message-bubble">
+                    <p>Question? Send us a message.</p>
+                    <span>
+                        just now
+                    </span>
+                </div>
+                <div class="bubble-to-message-container">
+                    <div class="left-col">
+                        <label for="fname">Name:</label>
+                        <input id="fname" type="text">
+                        <label for="fmail">E-mail:</label>
+                        <input id="fmail" type="text">
+                        
+                        <label for="fmessage">Message:</label>
+                        <textarea name="fmessage" id="fmessage" cols="20" rows="10"></textarea>
+                    </div>
+                    <div class="right-col">
+                        <div class="space-fill"></div>
+                        <div class="send"></div>
+                    </div>
+                </div>
+                
+                
+            </form>
+
+            <p>or</p>
+
+            <div class="callus">
+                <div class="phone">
+                    <p>Call us</p>
+                    <span>123 456 789</span>
+                </div>
+                <div class="mail">
+                    <p>E-mail</p>
+                    <span>hello@abc.xyz</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- splide library link -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide', {
+                type   : 'loop',
+                 padding: {
+                     right: '20vw',
+                     left : '20vw',
+                },
+                focus    : 'center',
+                gap: '5vw',
+                pagination: false,
+                autoplay: true,
+                interval: 4000,
+                pauseOnHover: true,
+            } ).mount();
+        } );
+    </script>
+
+    
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
